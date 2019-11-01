@@ -23,22 +23,22 @@ body {
   color: white;
   font-size: 30px;
   font-family: "Staatliches", cursive;
-  color: transparent;
-  -webkit-text-stroke-width: 0.3px;
+  color: black;
+  -webkit-text-stroke-width: 0.4px;
   -webkit-text-stroke-color: white;
   letter-spacing: 2px;
 }
 
 .team {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 160px;
   font-family: "Staatliches", cursive;
 }
 
 .conference {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Staatliches", cursive;
 }
 
@@ -56,6 +56,7 @@ body {
   position: relative;
   height: 160px;
   margin-bottom: 110px;
+  background: black;
 }
 .searchbox_enterid {
   float: left;
@@ -63,7 +64,7 @@ body {
   height: 146px;
   padding: 6px;
   background-color: transparent;
-  border: 2px solid red;
+  border: 3px dotted red;
   font-family: "Big Shoulders Text", cursive;
   font-size: 43px;
   text-align: center;
@@ -73,7 +74,7 @@ body {
   height: 160px;
   margin-left: 20px;
   background-color: transparent;
-  border: 2px solid red;
+  border: 3px dotted red;
   font-size: 100px;
   padding: 19px;
 }
@@ -87,13 +88,124 @@ input {
   color: white;
 }
 
-.comp {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  min-height: 100vh;
-  background-color: black;
-  z-index: -1;
+.shape_1 {
+  position: fixed;
+  border-radius: 100%;
+  background: transparent;
+  border: 2px solid #ff9d00;
+  width: 500px;
+  height: 500px;
+}
+
+.shape_2 {
+  position: fixed;
+  border-radius: 100%;
+  left: 200px;
+  top: 350px;
+  background: transparent;
+  border: 2px solid #ff9d00;
+  width: 800px;
+  height: 800px;
+}
+
+.shape_3 {
+  position: fixed;
+  border-radius: 100%;
+  left: 800px;
+  top: 100px;
+  background: transparent;
+  border: 2px solid #ff9d00;
+  width: 700px;
+  height: 700px;
+}
+
+.shape_4 {
+  position: fixed;
+  border-radius: 100%;
+  left: 80px;
+  top: 280px;
+  background: transparent;
+  border: 2px solid #ff9d00;
+  width: 450px;
+  height: 450px;
+}
+
+.shape_5 {
+  position: fixed;
+  border-radius: 100%;
+  left: 600px;
+  background: transparent;
+  border: 2px solid #ff9d00;
+  width: 600px;
+  height: 600px;
+}
+
+.shape_6 {
+  position: fixed;
+  border-radius: 100%;
+  top: -350px;
+  left: 450px;
+  background: transparent;
+  border: 2px solid #ff9d00;
+  width: 500px;
+  height: 500px;
+}
+
+.shapee_1 {
+  position: fixed;
+  width: 2px;
+  background-color: #00a2ff;
+  height: 1000px;
+  top: 0px;
+  left: 700px;
+}
+
+.shapee_2 {
+  position: fixed;
+  height: 2px;
+  background-color: #00a2ff;
+  width: 1500px;
+  top: 650px;
+  left: 0px;
+}
+
+.shapee_3 {
+  position: fixed;
+  height: 2px;
+  background-color: #00a2ff;
+  width: 1500px;
+  top: 280px;
+  left: 0px;
+  transform: rotate(-45deg);
+}
+
+.shapee_4 {
+  position: fixed;
+  height: 2px;
+  background-color: #00a2ff;
+  width: 1500px;
+  top: 210px;
+  left: 0px;
+  transform: rotate(10deg);
+}
+
+.shapee_5 {
+  position: fixed;
+  width: 2px;
+  background-color: #00a2ff;
+  height: 1000px;
+  top: 0px;
+  left: 1200px;
+  transform: rotate(10deg);
+}
+
+.shapee_6 {
+  position: fixed;
+  width: 2px;
+  background-color: #00a2ff;
+  height: 1000px;
+  top: 0px;
+  left: 120px;
 }
 
 /*# sourceMappingURL=style.css.map */
