@@ -1,0 +1,46 @@
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 80px;
+}
+
+.searchbox {
+    position: relative;
+    height: 160px;
+    margin-bottom: 110px;
+
+    &_enterid {
+        float: left;
+        width: 260px;
+        height: 146px;
+        padding: 6px;
+        background-color: transparent;
+        border: 2px solid red;
+        font-family: 'Big Shoulders Text', cursive;
+        font-size: 43px;
+        text-align: center;
+    }
+
+    &_gobutton {
+        width: 160px;
+        height: 160px;
+        margin-left: 20px;
+        background-color: transparent;
+        border: 2px solid red;
+        font-size: 100px;
+        padding: 19px;
+    }
+}
+
+.results {
+    color: white;
+}   
+
+input {
+    font-family: 'Big Shoulders Text', cursive;
+    color: white;
+}

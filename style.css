@@ -1,0 +1,99 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.results {
+  position: relative;
+  width: 660px;
+  text-align: center;
+}
+
+.name {
+  color: white;
+  font-size: 30px;
+  font-family: "Staatliches", cursive;
+  color: transparent;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: white;
+  letter-spacing: 2px;
+}
+
+.team {
+  color: white;
+  font-size: 20px;
+  margin-top: 160px;
+  font-family: "Staatliches", cursive;
+}
+
+.conference {
+  color: white;
+  font-size: 20px;
+  font-family: "Staatliches", cursive;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 80px;
+}
+
+.searchbox {
+  position: relative;
+  height: 160px;
+  margin-bottom: 110px;
+}
+.searchbox_enterid {
+  float: left;
+  width: 260px;
+  height: 146px;
+  padding: 6px;
+  background-color: transparent;
+  border: 2px solid red;
+  font-family: "Big Shoulders Text", cursive;
+  font-size: 43px;
+  text-align: center;
+}
+.searchbox_gobutton {
+  width: 160px;
+  height: 160px;
+  margin-left: 20px;
+  background-color: transparent;
+  border: 2px solid red;
+  font-size: 100px;
+  padding: 19px;
+}
+
+.results {
+  color: white;
+}
+
+input {
+  font-family: "Big Shoulders Text", cursive;
+  color: white;
+}
+
+.comp {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,18 +1,46 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>CONTEXT</title>
-        <link href="style.css" type="text/css" rel="stylesheet" />
-    </head>
+        <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+</head>
 
-    <body>
+<body class="mybody">
 
-    <h1>
-        hello
-    </h1>
+    <div class="composition">
+        <div class="1"></div>
+        <div class="1"></div>
+        <div class="1"></div>
+        <div class="1"></div>
+        <div class="1"></div>
+        <div class="1"></div>
+        <div class="1"></div>
+        <div class="1"></div>
+    </div>
 
+    <div class="flexbox">
+
+        <form class="searchbox">
+            <input class="searchbox_enterid" type="text" placeholder="type in a number" autocomplete="false" data-lpignore="true">
+            <input class="searchbox_gobutton" type="submit" value="GO">
+        </form>
+
+        <div class="results">
+            <div class="name"></div>
+            <div class="team"></div>
+            <div class="conference"></div>
+        </div>
+
+    </div>
+ 
     <script type="text/javascript" src="script.js"></script>
-    </body>
+    
+</body>
+
 </html>
